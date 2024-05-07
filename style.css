@@ -3,3 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #1f1f1f;
+}
+
+.calculator {
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #bababa;
+    transition: background-color 0.3s ease;
+}
